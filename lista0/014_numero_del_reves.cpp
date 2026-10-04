@@ -15,7 +15,7 @@ int main() {
     int n;
     cin >> n;
 
-    while(n > 10) {
+    while(n >= 10) {
         cout << (n%10);
         n = n/10;
     }
