@@ -25,4 +25,12 @@ bool es_capicua(int n) {
     return (n == invertir(n));
 }
 
-int main() {}
+int main() {
+    int win;
+    cin >> win;
+    while(win != -6) {
+        cout << es_capicua(win) << " ";
+        cin >> win;
+    }
+    cout << endl;
+}

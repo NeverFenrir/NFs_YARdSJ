@@ -18,3 +18,14 @@ void descompon(int n, int& h, int& m, int& s) {
     //obtenir segons
     s = (n % 3600) % 60;
 }
+
+int main() {
+    int n;
+    cin >> n;
+    for(int i=1; i<=n; i++) {
+        int in, h, m, s;
+        cin >> in;
+        descompon(in, h, m, s);
+        cout << i << ": " << h << ", " << m << ", " << s << endl;
+    }
+}
