@@ -1,10 +1,10 @@
 /*
 Feu un programa que calculi potències.
+
 Entrada
-
 L’entrada consisteix en diversos parells d’enters a i b. Assumiu b≥0.
-Sortida
 
+Sortida
 Per a cada parell a,b, cal escriure ab. Suposeu, com és habitual, que 00=1.
 */
 
